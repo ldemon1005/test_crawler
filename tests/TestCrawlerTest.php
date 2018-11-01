@@ -8,17 +8,14 @@ namespace Tests;
  */
 use PHPUnit\Framework\TestCase;
 include_once __DIR__.'/../src/CrwalerData.php';
+include_once __DIR__.'/../src/Library/simple_html_dom.php';
 class TestCrawlerTest extends TestCase
 {
     function testGetData(){
         $crawl = new \vnp\CrwalerData\CrwalerData();
-        $link = '';
+        $link = 'https://www.24h.com.vn/bong-da-c48.html';
+        $this->expectOutputString('');
         $data = $crawl->get_data($link);
-        $this->assertSame(">=0",$data);
-    }
-
-    function testReturnTrue(){
-        $a = true;
-        $this->assertSame(true,$a);
+        $this->assertCount(2,$data);
     }
 }
