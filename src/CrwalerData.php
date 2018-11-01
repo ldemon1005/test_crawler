@@ -36,16 +36,36 @@ class CrwalerData
 
         $tables = $html->find('table');
 
+        $data_tab = [];
+
+        if(count($tables)){
+            foreach ($tables as $key => $table){
+                $list_td = $table->find('td');
+                foreach ($list_td as $td){
+                    $data_tab[$key][$td->innertext] = [];
+                }
+                var_dump($data_tab);die;
+            }
+        }
+
         $result['tables'] = [
             'count' => count($tables)
         ];
 
-        $images = $html->find('img.src');
+        $images = $html->find('img');
+        $link_img = [];
+        if(count($images)){
+            foreach ($images as $image){
+                $link_img[] = $image->src;
+            }
+        }
 
         $result ['images'] = [
             'count' => count($images),
-            'link' => $images
+            'link' => $link_img
         ];
+        var_dump(json_encode($result));die;
+
 
         return $result;
     }

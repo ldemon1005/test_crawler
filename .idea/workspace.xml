@@ -2,13 +2,355 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6264d-c51f-4587-ae89-a4edadd2a8e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/crawler-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crawler-data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrwalerData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrwalerData.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestCrawlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCrawlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/phpunit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/examples/example-01.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/phive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/ManifestDocumentMapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/ManifestLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/ManifestSerializer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/InvalidApplicationNameException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/InvalidEmailException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/InvalidUrlException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/ManifestDocumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/ManifestDocumentMapperException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/ManifestElementException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/exceptions/ManifestLoaderException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/ApplicationName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Author.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/AuthorCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/AuthorCollectionIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/BundledComponent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/BundledComponentCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/BundledComponentCollectionIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/CopyrightInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Extension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Library.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/License.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Manifest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/PhpExtensionRequirement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/PhpVersionRequirement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Requirement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/RequirementCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/RequirementCollectionIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/values/Url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/AuthorElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/AuthorElementCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/BundlesElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ComponentElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ComponentElementCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ContainsElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/CopyrightElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ElementCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ExtElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ExtElementCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ExtensionElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/LicenseElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ManifestDocument.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ManifestDocumentLoadingException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/ManifestElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/PhpElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/src/xml/RequiresElement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/ManifestDocumentMapperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/ManifestLoaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/ManifestSerializerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/extension-invalidcompatible.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/extension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/invalidversion.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/invalidversionconstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/phpunit-5.6.5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/_fixture/test.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/exceptions/ManifestDocumentLoadingExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/ApplicationNameTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/ApplicationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/AuthorCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/AuthorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/BundledComponentCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/BundledComponentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/CopyrightInformationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/EmailTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/ExtensionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/LibraryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/LicenseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/ManifestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/PhpExtensionRequirementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/PhpVersionRequirementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/RequirementCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/values/UrlTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/AuthorElementCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/AuthorElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/BundlesElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ComponentElementCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ComponentElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ContainsElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/CopyrightElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ExtElementCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ExtElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ExtensionElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/LicenseElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/ManifestDocumentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/PhpElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/manifest/tests/xml/RequiresElementTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/phive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/AbstractVersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/AndVersionConstraintGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/AnyVersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/ExactVersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/GreaterThanOrEqualToVersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/InvalidVersionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/OrVersionConstraintGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/PreReleaseSuffix.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/SpecificMajorAndMinorVersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/SpecificMajorVersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/UnsupportedVersionConstraintException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/Version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionConstraint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionConstraintParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionConstraintValue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/src/VersionNumber.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Integration/VersionConstraintParserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/AbstractVersionConstraintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/AndVersionConstraintGroupTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/AnyVersionConstraintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/ExactVersionConstraintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/GreaterThanOrEqualToVersionConstraintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/OrVersionConstraintGroupTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/SpecificMajorAndMinorVersionConstraintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/SpecificMajorVersionConstraintTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phar-io/version/tests/Unit/VersionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Element.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/File.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Fqsen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Location.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/Project.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/src/ProjectFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/easy-coding-standard.neon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/DescriptionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/ExampleFinder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Serializer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/StandardTagFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/TagFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Author.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/BaseTag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Covers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Deprecated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Factory/StaticMethod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Factory/Strategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter/AlignFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter/PassthroughFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Generic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Param.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Property.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyRead.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyWrite.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Reference/Fqsen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Reference/Reference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Reference/Url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Return_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/See.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Since.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Source.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Throws.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Uses.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Var_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/FqsenResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/TypeResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Array_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Boolean.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Callable_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Compound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Context.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/ContextFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Float_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Integer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Iterable_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Mixed_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Null_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Nullable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Object_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Parent_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Resource_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Scalar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Self_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Static_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/String_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/This.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/src/Types/Void_.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-text-template/src/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/.php_cs.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/ChangeLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ArrayComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/Comparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ComparisonFailure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DOMNodeComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DateTimeComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DoubleComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ExceptionComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/Factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/MockObjectComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/NumericComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ObjectComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ResourceComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ScalarComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/SplObjectStorageComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/TypeComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/ArrayComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/ComparisonFailureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/DOMNodeComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/DateTimeComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/DoubleComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/ExceptionComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/FactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/MockObjectComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/NumericComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/ObjectComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/ResourceComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/ScalarComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/SplObjectStorageComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/TypeComparatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/Author.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/Book.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/ClassWithToString.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/SampleClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/Struct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/TestClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/tests/_fixture/TestClassComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/ChangeLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/OperatingSystem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/tests/ConsoleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/tests/OperatingSystemTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/tests/RuntimeTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/build/generate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/src/ResourceOperations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/version/src/Version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/phive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUriException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollectionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Tokenizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/XMLSerializer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/NamespaceUriTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenizerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/XMLSerializerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/customns.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1743707793">
@@ -59,14 +401,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1629145027">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="349" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="349" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CrwalerData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="217">
+              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -74,7 +444,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library/simple_html_dom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="19023">
               <caret line="1119" column="48" selection-start-line="1119" selection-start-column="48" selection-end-line="1119" selection-end-column="48" />
             </state>
           </provider>
@@ -84,7 +454,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
+              <first_editor relative-caret-position="153">
                 <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               </first_editor>
               <second_editor />
@@ -95,17 +465,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpunit.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TestCrawlerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,8 +483,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -143,12 +513,12 @@
         <option value="$PROJECT_DIR$/src/Library/simple_html_dom.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/CrwalerData.php" />
         <option value="$PROJECT_DIR$/test/TestCrawler.php" />
         <option value="$PROJECT_DIR$/test/TestCrawlerTest.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/TestCrawlerTest.php" />
+        <option value="$PROJECT_DIR$/src/CrwalerData.php" />
       </list>
     </option>
   </component>
@@ -158,10 +528,38 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/composer.json" />
-    </packageJsonPaths>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
@@ -169,7 +567,9 @@
     <option name="width" value="1289" />
     <option name="height" value="676" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -180,18 +580,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="crawler-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-data" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_crawler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,6 +596,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -235,24 +626,20 @@
       <option name="presentableId" value="Default" />
       <updated>1541063174368</updated>
       <workItem from="1541063175719" duration="5869000" />
+      <workItem from="1541080900419" duration="2251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5869000" />
+    <option name="totallyTimeSpent" value="8120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24940617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33074534" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -260,10 +647,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3301179" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,55 +665,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Library/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19023">
+          <caret line="1119" column="48" selection-start-line="1119" selection-start-column="48" selection-end-line="1119" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
+          <first_editor relative-caret-position="153">
             <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library/simple_html_dom.php">
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1119" column="48" selection-start-line="1119" selection-start-column="48" selection-end-line="1119" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrwalerData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="199">
+          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TestCrawlerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CrwalerData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
         </state>
       </provider>
     </entry>
