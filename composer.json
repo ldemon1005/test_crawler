@@ -1,0 +1,24 @@
+{
+  "name": "vnp/hello-vnp",
+  "description": "the first composer package",
+  "type": "crawler",
+  "authors": [
+    {
+      "name": "hello-vnp",
+      "email": "ldemon1005@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "vnp\\CrwalerData\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
