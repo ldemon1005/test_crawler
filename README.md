@@ -13,5 +13,6 @@ composer require vnp/test-crawler
 - Crwaler data:
 ```
 $crawler = new CrwalerData();
-print_r($crawler->get_data($link));
+print_r($crawler->getImages($link));
+print_r($crawler->gettables($link));
 ```
