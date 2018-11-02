@@ -8,6 +8,7 @@
 
 namespace vnp\CrwalerData;
 
+include_once __DIR__.'/Library/simple_html_dom.php';
 class CrwalerData
 {
     function getDom($link)
