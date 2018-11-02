@@ -10,9 +10,9 @@ composer require vnp/test-crawler
 ```
 
 ## Usage:
-- Crwaler data:
+- Crawler data:
 ```
-$crawler = new CrwalerData();
+$crawler = new CrawlerData();
 print_r($crawler->getImages($link));
 print_r($crawler->gettables($link));
 ```

@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "vnp\\crwalerdata\\": "src/"
+      "Vnp\\CrawlerData\\": "src/"
     },
     "files": ["src/Library/simple_html_dom.php"]
   }

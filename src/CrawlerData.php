@@ -6,11 +6,11 @@
  * Time: 16:06
  */
 
-namespace vnp\crwalerdata;
+namespace Vnp\CrawlerData;
 
 use http\Exception;
 
-class CrwalerData
+class CrawlerData
 {
     private function getDom($link)
     {
