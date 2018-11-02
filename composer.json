@@ -1,5 +1,5 @@
 {
-  "name": "vnp/hello-vnp",
+  "name": "vnp/test-crawler",
   "description": "the first composer package",
   "type": "crawler",
   "authors": [
