@@ -6,7 +6,7 @@ data
 ## Installation
 - via composer : 
 ```
-composer require duongnam99/pdf_exif
+composer require vnp/test-crawler
 ```
 
 ## Usage:
