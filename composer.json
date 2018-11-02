@@ -19,6 +19,7 @@
     "psr-4": {
       "vnp\\CrwalerData\\": "src/",
       "Tests\\": "tests/"
-    }
+    },
+    "files": ["src/Library/simple_html_dom.php"]
   }
 }

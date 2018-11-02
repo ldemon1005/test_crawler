@@ -7,10 +7,11 @@ namespace Tests;
  * Time: 16:35
  */
 use PHPUnit\Framework\TestCase;
+use \vnp\CrwalerData\CrwalerData;
 class TestCrawlerTest extends TestCase
 {
     function testGetData(){
-        $crawl = new \vnp\CrwalerData\CrwalerData();
+        $crawl = new CrwalerData();
         $link = 'http://chiasenhac.vn/';
         $this->expectOutputString('');
         $data = $crawl->get_data($link);

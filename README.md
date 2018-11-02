@@ -12,6 +12,6 @@ composer require vnp/test-crawler
 ## Usage:
 - Crwaler data:
 ```
-$crawler = new CrwalerData()();
-print_r($crawler->get_data());
+$crawler = new CrwalerData();
+print_r($crawler->get_data($link));
 ```
