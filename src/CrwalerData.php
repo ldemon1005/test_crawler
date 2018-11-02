@@ -6,12 +6,13 @@
  * Time: 16:06
  */
 
-namespace vnp\CrwalerData;
+namespace vnp\crwalerdata;
 
-//include_once __DIR__.'/Library/simple_html_dom.php';
+use http\Exception;
+
 class CrwalerData
 {
-    function getDom($link)
+    private function getDom($link)
     {
         $ch = curl_init($link);
 
@@ -27,18 +28,13 @@ class CrwalerData
         return $dom;
     }
 
-    public function get_data($link){
-        $html = $this->getDom($link);
+    /*
+     *  lấy dữ liệu trong table (dữ liệu thẻ th và td)
+     */
 
-        $result = [];
-
-        if($html->size == null){
-            return $result;
-        }
-        $html = $html->load($html->__toString());
-
+    public function getTable($link){
+        $html = $this->checkUrl($link);
         $tables = $html->find('table');
-
         $data_tab = [];
 
         if(count($tables)){
@@ -54,13 +50,26 @@ class CrwalerData
             }
         }
 
-        $result['tables'] = [
+        $result = [
             'count' => count($tables),
             'data_table' => $data_tab
         ];
 
+        $file = __DIR__."/../logs/log_tables.json";
+        $this->log($file,json_encode($result));
+
+        return $result;
+    }
+
+    /*
+     *  lấy ảnh và mô tả
+     */
+
+    public function getImages($link){
+        $html = $this->checkUrl($link);
         $images = $html->find('img');
         $list_img = [];
+
         if(count($images)){
             foreach ($images as $image){
                 $list_img[] = [
@@ -70,16 +79,39 @@ class CrwalerData
             }
         }
 
-        $result ['images'] = [
+        $result = [
             'count' => count($images),
             'list_img' => $list_img
         ];
-        $file = __DIR__."/../logs/log.json";
 
-        if(file_exists($file)){
-            file_put_contents($file,json_encode($result));
-        }
+        $file = __DIR__."/../logs/log_images.json";
+        $this->log($file,json_encode($result));
 
         return $result;
+    }
+
+    /*
+     *  kiểm tra có get được dữ liệu từ link không
+     */
+
+    private function checkUrl($link){
+        $html = $this->getDom($link);
+        if($html->size == null){
+            throw new \Exception("Error get data");
+        }
+        $html = $html->load($html->__toString());
+        return $html;
+    }
+
+    /*
+     *  ghi log file
+     */
+
+    private function log($url,$data){
+        if(file_exists($url) && file_put_contents($url,$data)){
+            return true;
+        }else {
+            throw new \Exception("Error log data");
+        }
     }
 }

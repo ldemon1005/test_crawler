@@ -17,8 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "vnp\\CrwalerData\\": "src/",
-      "Tests\\": "tests/"
+      "vnp\\crwalerdata\\": "src/"
     },
     "files": ["src/Library/simple_html_dom.php"]
   }
