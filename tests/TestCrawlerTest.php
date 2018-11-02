@@ -14,6 +14,7 @@ class TestCrawlerTest extends TestCase
         $link = 'http://chiasenhac.vn/';
         $this->expectOutputString('');
         $data = $crawl->get_data($link);
+//        print_r(json_encode($data));
         $this->assertCount(2,$data);
     }
 }
