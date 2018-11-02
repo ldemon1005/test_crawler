@@ -18,6 +18,9 @@ class TestCrawlerTest extends TestCase
         $data_table = $crawl->getTable($link);
         $data_image = $crawl->getImages($link);
 
+        print_r($data_table);
+        print_r($data_image);
+
         $this->assertCount(2,$data_table);
         $this->assertCount(2,$data_image);
     }

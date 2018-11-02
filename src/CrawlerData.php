@@ -9,6 +9,7 @@
 namespace Vnp\CrawlerData;
 
 use http\Exception;
+use Vnp\CrawlerData\Exception\Exception404;
 
 class CrawlerData
 {
@@ -55,9 +56,6 @@ class CrawlerData
             'data_table' => $data_tab
         ];
 
-        $file = __DIR__."/../logs/log_tables.json";
-        $this->log($file,json_encode($result));
-
         return $result;
     }
 
@@ -84,9 +82,6 @@ class CrawlerData
             'list_img' => $list_img
         ];
 
-        $file = __DIR__."/../logs/log_images.json";
-        $this->log($file,json_encode($result));
-
         return $result;
     }
 
@@ -97,21 +92,8 @@ class CrawlerData
     private function checkUrl($link){
         $html = $this->getDom($link);
         if($html->size == null){
-            throw new \Exception("Error get data");
+            throw new Exception404();
         }
-        $html = $html->load($html->__toString());
         return $html;
-    }
-
-    /*
-     *  ghi log file
-     */
-
-    private function log($url,$data){
-        if(file_exists($url) && file_put_contents($url,$data)){
-            return true;
-        }else {
-            throw new \Exception("Error log data");
-        }
     }
 }
